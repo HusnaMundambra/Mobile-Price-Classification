@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile Price Prediction</title>
+</head>
+<body>
+    <h1>Predict Mobile Price Range</h1>
+    <form action="/predict" method="post">
+        <label for="battery_power">Battery Power:</label>
+        <input type="number" id="battery_power" name="battery_power"><br><br>
+
+        <label for="px_height">Pixel Height:</label>
+        <input type="number" id="px_height" name="px_height"><br><br>
+
+        <label for="px_width">Pixel Width:</label>
+        <input type="number" id="px_width" name="px_width"><br><br>
+
+        <label for="ram">RAM:</label>
+        <input type="number" id="ram" name="ram"><br><br>
+
+        <label for="primary_cam_MP">Primary Camera MP:</label>
+        <input type="number" id="primary_cam_MP" name="primary_cam_MP"><br><br>
+
+        <label for="front_cam_MP">Front Camera MP:</label>
+        <input type="number" id="front_cam_MP" name="front_cam_MP"><br><br>
+
+        <label for="screen_height">Screen Height:</label>
+        <input type="number" id="screen_height" name="screen_height"><br><br>
+
+        <input type="submit" value="Predict Price">
+    </form>
+</body>
+</html>
